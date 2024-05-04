@@ -569,10 +569,15 @@ pre code {
   overflow-y: scroll;
 }
 
+/* .container {
+  max-width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+} */
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 2%; */
+  /* padding-left: 2%; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -6999,10 +7004,10 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
-.carousel-item img{
+.carousel-item img {
   padding-left: 15%;
   padding-right: 15%;
-  max-width: 100%; 
+  max-width: 100%;
   max-height: 85vh;
 }
 
@@ -11891,11 +11896,12 @@ h5,
 }
 
 .hero-wrap.hero-wrap-2 .slider-text {
-  height: 700px !important;
+  height: 400px !important;
 }
 
 .slider-text {
-  height: 850px;
+  /* height: 850px; */
+  height: 600px;
 }
 
 .slider-text h1 {
@@ -12953,7 +12959,7 @@ h5,
 .services-wrap {
   display: block;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .services-wrap .icon {
@@ -13347,7 +13353,7 @@ textarea.form-control {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -20px;
+  /* bottom: -20px; */
   z-index: 2;
 }
 
@@ -14436,4 +14442,3 @@ ul li ul.dropdown {
     stroke-dashoffset: -136px;
   }
 }
-
